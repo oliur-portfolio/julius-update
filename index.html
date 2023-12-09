@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <title>Julius Home Page</title>
+
+    <!-- Meta Tags -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="" />
+
+    <!-- Custom Fonts -->
+    <link rel="stylesheet" href="fonts/stylesheet.css" />
+
+    <!-- google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,500;9..40,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Custom CSS File -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+
+    <meta name="theme-color" content="#fafafa" />
+  </head>
+
+  <body
+    data-bs-spy="scroll"
+    data-bs-target="#navbar"
+    data-bs-root-margin="0px 0px -90%"
+    data-bs-smooth-scroll="true"
+    tabindex="0"
+  >
+    <!-- Header Area -->
+    <header class="header-area">
+      <nav
+        id="navbar"
+        class="custom-nav navbar navbar-expand-lg bg-body-tertiary fixed-top"
+      >
+        <div class="container-fluid p-0">
+          <a class="navbar-brand p-0 me-0" href="#">
+            <img src="/images/logo.png" alt="Logo" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#career">Career Map</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#interest">Interest Matcher</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#job">Job Matcher</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#course">Course</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#bootcamp">Bootcamp</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- Header Area -->
+
+    <!-- Main Content -->
+    <main>
+      <!-- Hero Area -->
+      <section class="hero-area">
+        <div
+          id="carouselHero"
+          class="carousel slide"
+          data-bs-ride="carousel"
+          data-bs-interval="4000"
+          data-bs-pause="false"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselHero"
+              data-bs-slide-to="0"
+              class="active rounded-start-5"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselHero"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselHero"
+              data-bs-slide-to="2"
+              class="rounded-end-5"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+
+          <div class="carousel-inner">
+            <div class="carousel-item slide-bg slide-bg1 active">
+              <div class="carousel-caption d-none d-md-block text-start">
+                <div class="slider-content">
+                  <h1>Find out which clean energy job is right for you</h1>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item slide-bg slide-bg2">
+              <div class="carousel-caption d-none d-md-block text-start">
+                <div class="slider-content">
+                  <h1>Find out which clean energy job is right for you</h1>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item slide-bg slide-bg3">
+              <div class="carousel-caption d-none d-md-block text-start">
+                <div class="slider-content">
+                  <h1>Find out which clean energy job is right for you</h1>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="slider-arrows position-absolute d-flex gap-3">
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselHero"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselHero"
+              data-bs-slide="next"
+            >
+              <span class="carousel-control-next-icon" aria-hidden="true">
+              </span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </section>
+      <!-- Hero Area -->
+
+      <!-- Career Map -->
+      <section id="career" class="career-map d-flex align-items-end">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="basic-area flex-column flex-xl-row">
+                <div class="basic-content career-map__content">
+                  <h2 class="heading--semi-text">
+                    THERE’S ROOM FOR GROWTH,
+                    <span>VIEW CAREER MAP</span>
+                  </h2>
+                  <p class="desc--light">
+                    Explore the career map to learn about different green career
+                    paths.
+                  </p>
+
+                  <a href="#" class="btn btn-success">
+                    View Green Career Paths
+                    <span>
+                      <img src="images/arrow.svg" alt="arrow" />
+                    </span>
+                  </a>
+                </div>
+
+                <div class="position-relative basic-image career-map__images">
+                  <img
+                    class="career-image"
+                    src="images/career-img.png"
+                    alt="career"
+                  />
+
+                  <img
+                    class="position-absolute custom-box-shadow--card career-image-top-layer"
+                    src="images/career-top-layer.png"
+                    alt="career"
+                  />
+
+                  <img
+                    class="position-absolute career-thumb-left-small custom-drop-shadow--circle"
+                    src="images/career-thumb-left-small.png"
+                    alt="career thumbnail image"
+                  />
+
+                  <img
+                    class="position-absolute career-thumb-left-big custom-drop-shadow--circle"
+                    src="images/career-thumb-left-big.png"
+                    alt="career thumbnail image"
+                  />
+
+                  <img
+                    class="position-absolute career-thumb-right-small custom-drop-shadow--circle"
+                    src="images/career-thumb-right-small.png"
+                    alt="career thumbnail image"
+                  />
+
+                  <img
+                    class="position-absolute career-thumb-right-big custom-drop-shadow--circle"
+                    src="images/career-thumb-right-big.png"
+                    alt="career thumbnail image"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Career Map -->
+
+      <!-- Start Journey -->
+      <section
+        id="job"
+        class="job-matcher start-journey d-flex align-items-end"
+      >
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-xl-4 col-xxl-5 order-1 order-lg-2">
+              <div class="basic-content job-matcher__content">
+                <h2>
+                  Start your green journey today –
+                  <span>share your insights.</span>
+                </h2>
+                <p>
+                  Take the pre-program assessment to help us learn a bit more
+                  about you and your familiarity with green jobs
+                </p>
+
+                <a href="#" class="btn btn-success">
+                  Take The Assessment
+                  <span>
+                    <img src="images/arrow.svg" alt="arrow" />
+                  </span>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-12 col-xl-8 col-xxl-7 order-2">
+              <div class="position-relative basic-image job-matcher__images">
+                <img
+                  class="job-matcher-image"
+                  src="images/journey-main.png"
+                  alt="job matcher"
+                />
+
+                <img
+                  class="position-absolute job-image-top-layer custom-drop-shadow"
+                  src="images/journey-small.png"
+                  alt="job matcher"
+                />
+
+                <img
+                  class="position-absolute job-thumb-left custom-drop-shadow--circle"
+                  src="images/journey-thumb-left.png"
+                  alt="job matcher thumbnail image"
+                />
+
+                <img
+                  class="position-absolute job-thumb-middle custom-drop-shadow--circle"
+                  src="images/journey-thumb-right.png"
+                  alt="job matcher thumbnail image"
+                />
+
+                <img
+                  class="position-absolute job-thumb-right custom-drop-shadow--circle"
+                  src="images/journey-thumb-bottom.png"
+                  alt="job matcher thumbnail image"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Start Journey -->
+
+      <!-- Green Career -->
+      <section id="greencareer" class="green-career">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="green-career__content text-center">
+                <h2 class="">
+                  FIND JOBS THAT ALIGN TO YOUR PERSONALITY
+                  <span>TAKE GreenCareer Compass</span>
+                </h2>
+
+                <p class="mx-auto">
+                  Assess your personality traits and interests to match you with
+                  environmentally-focused careers that align with your values
+                  and skills.
+                </p>
+
+                <a href="#" class="btn btn-success mx-auto">
+                  Take GreenCareer Compass
+                  <span>
+                    <img src="images/arrow.svg" alt="arrow" />
+                  </span>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-12">
+              <div class="green-career__images mx-auto">
+                <img
+                  class="green-career__main custom-drop-shadow"
+                  src="images/green-career-main.png"
+                  alt="career image"
+                />
+
+                <img
+                  class="green-career__layer"
+                  src="images/green-career-layer.png"
+                  alt="career image"
+                />
+
+                <img
+                  class="green-career__thumb-left custom-drop-shadow--circle"
+                  src="images/green-career-thumb-left.png"
+                  alt="career image"
+                />
+
+                <img
+                  class="green-career__thumb-right custom-drop-shadow--circle"
+                  src="images/green-career-thumb-right.png"
+                  alt="career image"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Green Career -->
+
+      <!-- Interest Matcher -->
+      <section id="interest" class="interest-matcher">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="interest-matcher__content text-center">
+                <h2 class="heading--light-text">
+                  NOT SURE WHATS RIGHT FOR YOU?
+                  <span>TAKE THIS Interest Matcher</span>
+                </h2>
+
+                <p class="desc--light mx-auto">
+                  Unclear about which onramp to a clean energy job is right for
+                  you? Use our interest matcher to get recommendations. All you
+                  need to do is answer a few questions.
+                </p>
+
+                <a href="#" class="btn btn-success mx-auto">
+                  Use Interest Matcher
+                  <span>
+                    <img src="images/arrow.svg" alt="arrow" />
+                  </span>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-12">
+              <div class="interest-matcher__images position-relative mx-auto">
+                <img
+                  class="interest-matcher__main custom-drop-shadow"
+                  src="images/matcher-main-img.png"
+                  alt="matcher main"
+                />
+                <img
+                  class="interest-matcher__team position-absolute custom-drop-shadow"
+                  src="images/matcher-teams-img.png"
+                  alt="matcher team"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Interest Matcher -->
+
+      <!-- Job Matcher -->
+      <section id="job" class="job-matcher d-flex align-items-end">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-xl-8 order-2 order-xl-1">
+              <div class="position-relative basic-image job-matcher__images">
+                <img
+                  class="job-matcher-image"
+                  src="images/job-matcher-img.png"
+                  alt="job matcher"
+                />
+
+                <img
+                  class="position-absolute job-image-top-layer custom-drop-shadow"
+                  src="images/job-top-layer.png"
+                  alt="job matcher"
+                />
+
+                <img
+                  class="position-absolute job-thumb-left custom-drop-shadow--circle"
+                  src="images/job-thumb-left.png"
+                  alt="job matcher thumbnail image"
+                />
+
+                <img
+                  class="position-absolute job-thumb-middle custom-drop-shadow--circle"
+                  src="images/job-thumb-middle.png"
+                  alt="job matcher thumbnail image"
+                />
+
+                <img
+                  class="position-absolute job-thumb-right custom-drop-shadow--circle"
+                  src="images/job-thumb-right.png"
+                  alt="job matcher thumbnail image"
+                />
+              </div>
+            </div>
+
+            <div class="col-12 col-xl-4 order-1 order-xl-2">
+              <div class="basic-content job-matcher__content">
+                <h2>
+                  Where do my skills fit?
+                  <span>Take this Job Matcher</span>
+                </h2>
+                <p>
+                  Choose the job that mostly closely aligns to your current
+                  position, and we will identify clean energy jobs that match.
+                </p>
+
+                <a href="#" class="btn btn-success">
+                  Take Job Matcher
+                  <span>
+                    <img src="images/arrow.svg" alt="arrow" />
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Job Matcher -->
+
+      <!-- Course -->
+      <section id="course" class="course d-flex align-items-end">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-xl-4">
+              <div class="basic-content course__content">
+                <h2>
+                  WANT TO LEARN MORE?
+                  <span>TAKE THIS INTRO COURSE</span>
+                </h2>
+                <p>
+                  The <span>Energy Industry Fundamentals</span> course will
+                  introduce you to important clean energy careers and provide an
+                  industry credential.
+                </p>
+
+                <a href="#" class="btn btn-success">
+                  Take the Intro Course
+                  <span>
+                    <img src="images/arrow.svg" alt="arrow" />
+                  </span>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-12 col-xl-8">
+              <div class="position-relative basic-image course__images">
+                <img
+                  class="course-image"
+                  src="images/course-img.png"
+                  alt="course"
+                />
+
+                <img
+                  class="position-absolute course-top-layer custom-drop-shadow"
+                  src="images/course-top-layer.png"
+                  alt="course"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Course -->
+    </main>
+    <!-- Main Content -->
+
+    <!-- Footer Area -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__content">
+          <a class="footer-logo p-0 me-0" href="#">
+            <img src="/images/footer-logo.png" alt="Footer logo" />
+          </a>
+
+          <ul class="footer-nav">
+            <li><a href="#career">Career Map</a></li>
+            <li><a href="#interest">Interest Matcher</a></li>
+            <li><a href="#job">Job Matcher</a></li>
+            <li><a href="#course">Course</a></li>
+            <li><a href="#bootcamp">Bootcamp</a></li>
+          </ul>
+
+          <div class="row">
+            <div class="col-12 col-xl-6">
+              <p class="copyrights">© Julius Education 2023</p>
+            </div>
+            <div class="col-12 col-xl-6">
+              <ul
+                class="footer-bottom-nav d-flex justify-content-start justify-content-xl-end"
+              >
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Service</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer Area -->
+
+    <!-- JS Files -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
